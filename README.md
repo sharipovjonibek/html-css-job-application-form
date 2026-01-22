@@ -1,4 +1,4 @@
-## 📘 Project Purpose
+##  Project Purpose
 
 I built this project to **learn and practice HTML and CSS**.
 
@@ -6,7 +6,7 @@ It is a very effective exercise for strengthening frontend fundamentals, **espec
 
 ---
 
-## 🧠 The Task
+##  The Task
 
 The goal of this task is to challenge yourself in a meaningful way:
 
