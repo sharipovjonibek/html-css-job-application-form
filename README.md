@@ -10,7 +10,7 @@ It is a very effective exercise for strengthening frontend fundamentals, **espec
 
 The goal of this task is to challenge yourself in a meaningful way:
 
-- Try to build this screen **without looking at any existing code**
+- Try to build this [screen](https://sharipovjonibek.github.io/html-css-job-application-form/) **without looking at any existing code**  
 - Rely only on your own knowledge
 - Write every line intentionally and understand **what it does and why**
 - Focus on correct HTML structure, semantics, and form elements
