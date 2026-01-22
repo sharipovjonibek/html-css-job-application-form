@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Job Application</h1>
+    <p>Please complete the form below to apply for a position with us.</p>
+    <hr>
+
+</header>
+
+<form action="server" method="post" enctype="multipart/form-data">
+
+    <h3>Full Name <span class="required">*</span></h3>
+
+    <div class="two-columns">
+
+        <input type="text" name="first-name" placeholder="First Name" required>
+        <input type="text" name="middle-name" placeholder="Middle Name">
+        <input type="text" name="last-name" placeholder="Last Name" required>
+
+    </div>
+
+    <h3>Body Size <span class="required">*</span></h3>
+
+    <div class="two-columns">
+
+        <input type="number" name="height" placeholder="Height (cm)" required>
+        <input type="number" name="weight" placeholder="Weight (kg)" required>
+
+    </div>
+
+    <h3>Birth Date <span class="required">*</span></h3>
+
+    <input type="date" name="birth-date" required>
+
+    <h3>Family Status</h3>
+
+    <div class="inline-group">
+
+        <label><input type="radio" name="family" value="Single"> Single</label>
+        <label><input type="radio" name="family" value="Married"> Married</label>
+        <label><input type="radio" name="family" value="Divorced"> Divorced</label>
+        <label><input type="radio" name="family" value="Other"> Other</label>
+
+    </div>
+
+    <h3>Contact Information</h3>
+
+    <div class="two-columns">
+
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+    </div>
+
+    <h3>LinkedIn Profile</h3>
+
+    <input type="url" name="linkedin" placeholder="https://linkedin.com/in/username">
+
+    <h3>Position Applied <span class="required">*</span></h3>
+
+    <select name="position" required>
+
+        <option value="">Please Select</option>
+        <option value="Marketing Specialist">Marketing Specialist</option>
+        <option value="Sales Manager">Sales Manager</option>
+        <option value="Product Lead">Product Lead</option>
+        <option value="Developer">Developer</option>
+
+    </select>
+
+    <h3>Excel Skill Level</h3>
+
+    <div class="inline-group">
+
+        <label><input type="radio" name="excel" value="Beginner"> Beginner</label>
+        <label><input type="radio" name="excel" value="Advanced"> Advanced</label>
+        <label><input type="radio" name="excel" value="Expert"> Expert</label>
+
+    </div>
+
+    <h3>Upload Your Resume <span class="required">*</span></h3>
+
+    <input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+
+    <h3>Cover Letter</h3>
+    
+    <textarea name="cover-letter" rows="6"
+        placeholder="Write your cover letter here..."></textarea>
+
+    <button type="submit">Apply Now</button>
+</form>
+
+<footer>
+
+    © 2025
+    
+</footer>
+
+</body>
+</html>

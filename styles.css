@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #eef2f3, #dfe9f3);
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 2.2rem;
+    color: #2c3e50;
+}
+
+header p {
+    color: #555;
+}
+
+hr {
+    width: 60px;
+    border: none;
+    height: 3px;
+    background-color: #28a745;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 0.95rem;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #28a745;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.two-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.inline-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.inline-group label {
+    cursor: pointer;
+    font-weight: normal;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.required {
+    color: red;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
